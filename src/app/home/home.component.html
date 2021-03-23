@@ -1,0 +1,129 @@
+<div class="sticky-top">
+  <div class="contact-bg white-text">
+    <span class="ml-sm-2 d-lg-flex d-md-flex justify-content-lg-end justify-content-md-end  mr-lg-4 mr-md-3">
+      Contact Me: &nbsp;<span style="text-transform: lowercase"><a style="color: #c3e7ff;" href="mailto:omowunmiekun1@gmail.com" >omowunmiekun1@gmail.com</a> </span>
+     &nbsp; or +2348085035143
+    </span>
+  </div>
+  <mdb-navbar SideClass="navbar navbar-expand-lg navbar-light white lighten-2" [containerInside]="false">
+
+    <mdb-navbar-brand><a class="navbar-brand primary" href="#">Omowunmi Ekun</a></mdb-navbar-brand>
+
+    <links>
+
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a (click)="scrollToHome()" class="nav-link waves-light primary" mdbWavesEffect><mdb-icon fas icon="home"></mdb-icon> Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a (click)="scrollToAbout()" class="nav-link waves-light primary" mdbWavesEffect><mdb-icon fas icon="user"></mdb-icon> About</a>
+        </li>
+        <li class="nav-item ">
+          <!-- <a (click)="scrollToContact()" class="nav-link waves-light primary" mdbWavesEffect><mdb-icon fas icon="phone-alt"></mdb-icon>Contact</a> -->
+        </li>
+        <li class="nav-item">
+          <a (click)="scrollToPortfolio()" class="nav-link waves-light primary" mdbWavesEffect><mdb-icon fas icon="user"></mdb-icon> Portfolio</a>
+        </li>
+
+        <!-- <li class="nav-item dropdown" dropdown>
+          <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="user"></mdb-icon> Profile<span class="caret"></span></a>
+          <div *dropdownMenu class="dropdown-menu dropdown-menu-right dropdown dropdown-primary" role="menu">
+            <a class="dropdown-item waves-light" mdbWavesEffect href="#">My account</a>
+            <a class="dropdown-item waves-light" mdbWavesEffect href="#">Log out</a>
+          </div>
+        </li> -->
+
+      </ul>
+    </links>
+
+  </mdb-navbar>
+</div>
+
+<div class="mt-4  align-items-center ">
+  <div class="container col-10">
+    <div class="row  full-height" id="home">
+      <div class="col-lg-4 col-md-5 col-sm-12 d-flex justify-content-center align-self-center">
+        <div class="animated bounceInLeft">
+          <h2 class="font-weight-bold">
+            <span class="primary">Designer,</span> <span class="tertiary">Front-End,</span> <span class="primary"> Developer,</span> <span class="tertiary">  and Singer</span>
+          </h2>
+          <p class="mb-0">Hi, I am Omowunmi Ekun, a Software Developer, with Full-Stack knowledge (but primarily Front-End) with
+            over 3 years experience of creating commercial websites
+          </p>
+          </div>
+
+
+      </div>
+      <div class="col-lg-8 col-md-7 col-sm-12 mt-4">
+        <img [defaultImage]="defaultImage" [lazyLoad]="image" width="100%" alt="home-large-image" class="home-large-image align-img-center animated heartBeat">
+      </div>
+    </div>
+    <div class="row  full-height" id="about">
+      <div class="col-lg-4 col-md-5 col-sm-12 d-flex justify-content-center  align-self-center">
+        <div class="animated bounceInLeft">
+          <h2 class="font-weight-bold primary">About me</h2>
+
+          <p class="mb-0">Hi, I am Omowunmi Ekun, a Software Developer, with Full-Stack knowledge (but primarily Front-End) with
+            over 3 years experience of creating commercial websites.<br/>
+            I am a web Developer in Lagos, Nigeria, and I delved commercially into Web development in 2018.<br/>
+            I am an Over-achiever, and Like to do the best I can in whatever situation I find myself.<br/>
+            I have been involved in multiple projects such as Konga SHQ Admin Platform, Managing TdPlus Websites, <br/>
+            E-business applications such as Endear.
+            And some pet projects of my own.<br/>
+            And finally, I sing
+          </p>
+        <p>Github Link: <a href="https://github.com/ekunomowunmi">https://github.com/ekunomowunmi</a></p>
+
+          </div>
+
+
+      </div>
+      <div class="col-lg-8 col-md-7 col-sm-12 mt-4">
+        <img [defaultImage]="defaultImage" [lazyLoad]="aboutImage" width="80%" alt="home-large-image" class="home-large-image align-img-center animated heartBeat mt-4">
+      </div>
+    </div>
+    <div class="row full-height" id="portfolio">
+        <div class="col-md-12 col-sm-12 mt-5 align-self-center  primary mt-5">
+          <h2 class="font-weight-bold">Portfolio</h2>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-12">
+          <div class="animated bounceInLeft">
+            <h4 class="font-weight-bold primary">Decagon</h4>
+            <p>A simple app for getting all users, males users and female users, and their countries</p>
+            </div>
+
+
+        </div>
+        <div class="col-lg-8 col-md-7 col-sm-12 mt-4">
+          <a href="https://decagon.vercel.app/" target="_blank"><img  src="../../assets/images/decagon_img.png" width="80%" alt="home-large-image" class="home-large-image align-img-center animated heartBeat"></a>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-12">
+          <div class="animated bounceInLeft">
+            <h4 class="font-weight-bold primary">Wisdom Chapel</h4>
+            <p>A pet project for a church</p>
+            </div>
+
+
+        </div>
+        <div class="col-lg-8 col-md-7 col-sm-12 mt-4">
+          <a href="https://wisdomchapel.omowunmiekun1.now.sh/who-we-are/" target="_blank"><img  src="../../assets/images/churchimg.png" width="80%" alt="home-large-image" class="home-large-image align-img-center animated heartBeat"></a>
+        </div>
+        <div class="row align-self-center mt-3 mb-3">
+          <h2 class="d-block col-md-12 primary">Sites Worked on with groups of other developers</h2>
+          <ul class=" d-flex">
+            <li class="list-group-item mx-2"><a href="https://tdplus.com.ng">Tdplus</a></li>
+            <li class="list-group-item mx-2"><a href="https://springxpress.com">Spring Xpress</a></li>
+            <li class="list-group-item mx-2"><a href="https://shqadmin.konga.com">Konga Admin SHQ</a></li>
+            <li class="list-group-item mx-2"><a href="https://t4tfe.endearng.net/">Table 4 Two</a></li>
+          </ul>
+        </div>
+        <div class="row align-self-center mt-3">
+          <p class="col-md-12">And thats it for this page. Thank you for browsing</p>
+        </div>
+   </div>
+
+  </div>
+</div>
+
