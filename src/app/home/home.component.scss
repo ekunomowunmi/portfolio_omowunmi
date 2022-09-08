@@ -1,3 +1,10 @@
+@media screen and (min-width: 769px) {
+  .avatar {
+    width: 210px;
+    height: 210px;
+}
+}
+
 .laptop-bckgrnd{
   background-image: url('../../assets/images/laptop.jpg');
   background-repeat: no-repeat;
@@ -21,4 +28,14 @@
 
 .contact-bg{
   background-color: #384277;
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+.avatar{
+margin:2rem 0;
+width: 160px;
+height: 160px;
 }

@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   defaultImage = '../../assets/images/white-placeholder.png';
-  image = '../../assets/images/home-large-image.png';
+  image = '../../assets/images/image_1.png';
   aboutImage = '../../assets/images/about-us-png-3.png'
 
   constructor() { }
